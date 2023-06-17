@@ -1,11 +1,11 @@
-About r-homomorpher
-===================
+About r-homomorpher-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-homomorpher-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/bnaras/homomorpheR
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-homomorpher-feedstock/blob/main/LICENSE.txt)
 
 Summary: Homomorphic computations in R for privacy-preserving applications. Currently only the Paillier Scheme is implemented.
 
