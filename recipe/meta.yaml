@@ -1,4 +1,4 @@
-{% set version = '0.2-2' %}
+{% set version = "0.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/homomorpheR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/homomorpheR/homomorpheR_{{ version }}.tar.gz
-  sha256: f88e49b21b74f91d65b8d23385767a8b88dbba0102a572d01a8c726d4dc050c5
+  sha256: e2e2d4880d5e50a3fac582f8b65889c9c53b18fcc9f09897ee4c46249398f5aa
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,8 +41,7 @@ test:
 about:
   home: http://github.com/bnaras/homomorpheR
   license: MIT
-  summary: Homomorphic computations in R for privacy-preserving applications. Currently only
-    the Paillier Scheme is implemented.
+  summary: Homomorphic computations in R for privacy-preserving applications. Currently only the Paillier Scheme is implemented.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
