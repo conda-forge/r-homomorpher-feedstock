@@ -1,4 +1,4 @@
-{% set version = "0.3" %}
+{% set version = "1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/homomorpheR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/homomorpheR/homomorpheR_{{ version }}.tar.gz
-  sha256: e2e2d4880d5e50a3fac582f8b65889c9c53b18fcc9f09897ee4c46249398f5aa
+  sha256: 51b2674a18a60c4fffcfca9a8c6808072032ca6de87f0098a5a722fdc700d713
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
